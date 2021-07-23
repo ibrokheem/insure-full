@@ -1,0 +1,23 @@
+html{
+  box-sizing: border-box;
+}
+
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+
+body{
+  height: 100%;
+  font-family: "Karla", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  background: #fff;
+  color: #fff;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}

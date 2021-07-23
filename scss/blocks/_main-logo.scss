@@ -1,0 +1,14 @@
+.main-logo{
+  display: block;
+  width: 111px;
+  height: 18px;
+  opacity: 1;
+  margin-right: auto;
+  &:hover{
+    opacity: 0.8;
+  }
+  
+  &:active{
+    opacity: 0.6;
+  }
+}

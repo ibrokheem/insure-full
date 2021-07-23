@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Insure</title>
+  <link rel="stylesheet" href="scss/main.css">
+</head>
+
+<body class="page__body">
+  <header class="site-header">
+    <div class="site-header__container container">
+      <a class="main-logo" href="index.html">
+        <img src="img/logo.svg" alt="insure logo" width="111"  height="18">
+      </a>
+
+      <nav class="site-nav">
+        <ul class="site-nav__list">
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="how-work.html">How we work</a>
+          </li>
+
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="blog.html">Blog</a>
+          </li>
+
+          <li class="site-nav__item">
+            <a class="site-nav__link" href="account.html">Account</a>
+          </li>
+        </ul>
+
+        <a class="site-nav__view-plans view-plans" href="view-plans.html">View plans</a>
+      </nav>
+
+      <button class="site-header__toggler" type="button" aria-label="navbar toggler"></button>
+    </div>
+  </header>
+  
+  <main class="page__main">
+    <section class="hero">
+      <picture>
+        <source class="hero__img--mobile" srcset="img/family-mobile.webp 1x, img/family-mobile@2x.webp 2x" media="(max-width:576px)" type="image/webp">
+    
+        <source class="hero__img--mobile" srcset="img/family-mobile.jpg 1x, img/family-mobile@2x.jpg 2x" media="(max-width:576px)">
+
+        <source class="hero__img--tablet" srcset="img/family-tablet.webp 1x, img/family-tablet@2x.webp 2x" media="(max-width:768px)" type="image/webp">
+    
+        <source class="hero__img--tablet" srcset="img/family-tablet.png 1x, img/family-tablet@2x.png 2x" media="(max-width:768px)">
+    
+        <source srcset="img/family.webp 1x, img/family@2x.webp 2x" type="image/webp">
+    
+        <img class="hero__img" src="img/family.png" alt="family with 4 members walking together to leftside" width="540" height="650" srcset="img/family.png 1x, img/family@2x.png 2x">
+      </picture>
+
+      <div class="hero__container container">
+        <div class="hero__content">
+          <h2 class="hero__title">Humanizing <br> your insurance.</h2>
+          <p class="hero__txt">Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</p>
+          <a class="hero__view-plans view-plans" href="view-plans.html">View plans</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+
+</body>
+</html>

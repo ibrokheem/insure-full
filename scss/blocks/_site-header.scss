@@ -1,0 +1,42 @@
+.site-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  padding-top: 31px;
+  padding-bottom: 31px;
+  background-color: #fff;
+  z-index: 99;
+}
+
+.site-header__container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header__toggler{
+  display: none;
+  width: 32px;
+  height: 32px;
+  background-image: url("/img/hamburger.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  border: 2px solid #2C2830;
+}
+
+
+@media only screen and (min-width: 375px) and (max-width: 1000px){
+  .site-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .site-header__toggler{
+    display: block;
+    // margin-right: auto;
+    // margin-left: auto;
+  }
+}
