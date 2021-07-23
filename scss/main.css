@@ -648,6 +648,7 @@ img {
   background-color: #2D2641;
   padding-top: 105px;
   padding-bottom: 127px;
+  overflow-x: hidden;
 }
 
 .hero::before {
@@ -844,6 +845,12 @@ img {
   .hero {
     position: relative;
     padding: 0;
+  }
+  .hero::before {
+    display: none;
+  }
+  .hero::after {
+    display: none;
   }
   .hero__container {
     display: -webkit-box;

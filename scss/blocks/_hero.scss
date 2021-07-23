@@ -3,6 +3,7 @@
   background-color: #2D2641;
   padding-top: 105px;
   padding-bottom: 127px;
+  overflow-x: hidden;
   
   &::before{
     content: "";
@@ -184,6 +185,14 @@
   .hero{
     position: relative;
     padding: 0;
+
+    &::before{
+      display: none;
+    }
+
+    &::after{
+      display: none;
+    }
   }
 
   .hero__container{
