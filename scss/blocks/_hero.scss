@@ -3,7 +3,7 @@
   background-color: #2D2641;
   padding-top: 105px;
   padding-bottom: 127px;
-  overflow-x: hidden;
+  // overflow-x: hidden;
   
   &::before{
     content: "";
@@ -80,7 +80,7 @@
   width: 540px;
   height: 650px;
   z-index: 1;
-
+  
   &--mobile{
     position: relative;
     width: 100%;
@@ -92,14 +92,23 @@
   .hero{
     position: relative;
     padding: 0;
-  }
 
+    &::before{
+      display: none;
+    }
+
+    &::after{
+      display: none;
+    }
+    
+  }
+  
   .hero__container{
     display: flex;
     flex-direction: column;
     align-items: center ;
   }
-
+  
   .hero__content{
     padding-top: 93px;
     padding-bottom: 93px;
@@ -121,9 +130,9 @@
     text-align: left;
     letter-spacing: -0.6px;
     color: #FFFFFF;
-
+    
     &::before{
-      content: "";
+      // content: "";
       position: absolute;
       width: 485px;
       height: 453px;
@@ -137,7 +146,7 @@
     }
     
     &::after{
-      content: "";
+      // content: "";
       position: absolute;
       width: 485px;
       height: 453px;
@@ -181,26 +190,26 @@
     padding-right: 24px;
     padding-left: 24px;
   }
-
+  
   .hero{
     position: relative;
     padding: 0;
-
+    
     &::before{
       display: none;
     }
-
+    
     &::after{
       display: none;
     }
   }
-
+  
   .hero__container{
     display: flex;
     flex-direction: column;
     align-items: center ;
   }
-
+  
   .hero__content{
     padding-top: 93px;
     padding-bottom: 93px;
@@ -224,7 +233,7 @@
     text-align: center;
     letter-spacing: -0.6px;
     color: #FFFFFF;
-
+    
     &::before{
       content: "";
       position: absolute;
@@ -239,19 +248,6 @@
       background-position: center;
     }
     
-    &::after{
-      content: "";
-      position: absolute;
-      width: 377px;
-      height: 352px;
-      left: calc(50% + 80px);
-      bottom: -190px;
-      z-index: 97;
-      background-image: url("/img/hero-decor-right.svg");
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
-    }
   }
   
   .hero__txt{

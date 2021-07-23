@@ -648,7 +648,6 @@ img {
   background-color: #2D2641;
   padding-top: 105px;
   padding-bottom: 127px;
-  overflow-x: hidden;
 }
 
 .hero::before {
@@ -749,6 +748,12 @@ img {
     position: relative;
     padding: 0;
   }
+  .hero::before {
+    display: none;
+  }
+  .hero::after {
+    display: none;
+  }
   .hero__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -789,7 +794,6 @@ img {
     color: #FFFFFF;
   }
   .hero__title::before {
-    content: "";
     position: absolute;
     width: 485px;
     height: 453px;
@@ -802,7 +806,6 @@ img {
     background-position: center;
   }
   .hero__title::after {
-    content: "";
     position: absolute;
     width: 485px;
     height: 453px;
@@ -900,19 +903,6 @@ img {
     height: 453px;
     right: calc(50% - 20px);
     top: 220px;
-    z-index: 97;
-    background-image: url("/img/hero-decor-right.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-  }
-  .hero__title::after {
-    content: "";
-    position: absolute;
-    width: 377px;
-    height: 352px;
-    left: calc(50% + 80px);
-    bottom: -190px;
     z-index: 97;
     background-image: url("/img/hero-decor-right.svg");
     background-repeat: no-repeat;
