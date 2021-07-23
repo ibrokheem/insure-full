@@ -494,7 +494,7 @@ img {
   border-color: #2C2830;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 1000px) {
+@media only screen and (min-width: 100px) and (max-width: 1000px) {
   .site-nav {
     display: none;
   }
@@ -595,7 +595,7 @@ img {
   border: 2px solid #2C2830;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 1000px) {
+@media only screen and (min-width: 100px) and (max-width: 1000px) {
   .site-header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -794,6 +794,7 @@ img {
     color: #FFFFFF;
   }
   .hero__title::before {
+    content: "";
     position: absolute;
     width: 485px;
     height: 453px;
@@ -806,6 +807,7 @@ img {
     background-position: center;
   }
   .hero__title::after {
+    content: "";
     position: absolute;
     width: 485px;
     height: 453px;
