@@ -71,6 +71,11 @@
   color: #fff;
   border-color: #fff;
   padding: 13px 28px;
+
+  &:hover{
+    background-color: #fff;
+    color: #2D2641;
+  }
 }
 
 .hero__img{
@@ -100,7 +105,6 @@
     &::after{
       display: none;
     }
-    
   }
   
   .hero__container{
@@ -116,7 +120,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    
   }
   
   .hero__title{
@@ -132,21 +135,21 @@
     color: #FFFFFF;
     
     &::before{
-      content: "";
+      // content: "";
       position: absolute;
       width: 485px;
       height: 453px;
       right: calc(50%);
-      top: 0px;
+      top: 100%;
       z-index: 97;
       background-image: url("/img/hero-decor-right.svg");
       background-repeat: no-repeat;
       background-size: contain;
-      background-position: center;
+      // background-position: center;
     }
     
     &::after{
-      content: "";
+      // content: "";
       position: absolute;
       width: 485px;
       height: 453px;

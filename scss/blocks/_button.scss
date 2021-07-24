@@ -1,4 +1,4 @@
-.view-plans{
+.button{
   font-family: "Karla", Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 13px;
@@ -12,9 +12,4 @@
   text-decoration: none;
   text-transform: uppercase;
   transition: background-color 0.4s ease;
-
-  &:hover{
-    background-color: #2C2830;
-    color: #fff;
-  }
 }

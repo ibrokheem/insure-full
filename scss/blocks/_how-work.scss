@@ -1,0 +1,44 @@
+.how-work{
+  padding-bottom: 150px;
+}
+
+.how-work__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(45, 38, 65, 1);
+  padding-top: 70px;
+  padding-right: 80px;
+  padding-bottom: 70px;
+  padding-left: 80px;
+  background-image: url("/img/hero-decor-right.svg");
+  background-size: 765px 713px;
+  background-position:  calc(50% + 500px);
+  background-repeat: no-repeat;
+  z-index: 2;
+}
+
+.how-work__title{
+  padding: 0;
+  margin: 0;
+  width: 475px;
+  font-family: "DM Serif Display";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.777778px;
+  color: #FFFFFF;
+  opacity: 0.84;
+}
+
+.how-work__btn{
+  z-index: 3;
+  border-color: #fff;
+  color: #fff;
+
+  &:hover{
+    background-color: #fff;
+    color: #2C2830;
+  }
+}
