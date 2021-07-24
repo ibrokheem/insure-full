@@ -23,8 +23,6 @@
   margin: 0;
   width: 475px;
   font-family: "DM Serif Display";
-  font-style: normal;
-  font-weight: normal;
   font-size: 56px;
   line-height: 56px;
   letter-spacing: -0.777778px;
@@ -40,5 +38,33 @@
   &:hover{
     background-color: #fff;
     color: #2C2830;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .how-work{
+    padding-bottom: 140px;
+  }
+  
+  .how-work__container{
+    flex-direction: column;
+    padding-top: 70px;
+    padding-right: 24px;
+    padding-bottom: 70px;
+    padding-left: 24px;
+    background-image: url("/img/hero-decor-right.svg");
+    background-size: 467px 435px;
+    background-position: calc(50% + 220px) calc(50% - 80px);
+    background-repeat: no-repeat;
+    z-index: 2;
+  }
+  
+  .how-work__title{
+    width: 100%;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.8px;
+    text-align: center;
+    margin-bottom: 40px;
   }
 }

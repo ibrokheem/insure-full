@@ -156,4 +156,37 @@
   }
 }
 
-@media only screen and (max-width: 767px){}
+@media only screen and (max-width: 767px){
+  .different{
+    padding-top: 140px;
+    padding-bottom: 140px;
+  }
+  
+  .different__title{
+    margin-bottom: 80px;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.6px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .different__list{
+    flex-direction: column;
+  }
+  
+  .different__item{
+    margin: 0;
+    width: 100%;
+    margin-bottom: 56px;
+    align-items: center;
+  }
+
+  .different__item__txt{
+    text-align: center;
+  }
+
+}
