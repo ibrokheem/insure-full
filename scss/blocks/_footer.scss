@@ -164,35 +164,5 @@
     margin-bottom: 40px;
     flex-grow: 1;
   }
-  
-  .footer-nav__title{
-    padding: 0;
-    margin: 0;
-    min-height: 15px;
-    margin-bottom: 36px;
-    font-family: "Karla", sans-serif;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 15px;
-    letter-spacing: 1.5px;
-    color: #837D88;
-    text-transform: uppercase;
-  }
-  
-  .footer-nav__link{
-    font-family: "Karla", sans-serif;
-    font-weight: bold;
-    font-size: 13px;
-    line-height: 15px;
-    letter-spacing: 1.5px;
-    color: #2D2641;
-    text-decoration: none;
-    text-transform: uppercase;
-    margin-bottom: 16px;
-  
-    &:hover{
-      text-decoration: underline;
-    }
-  }
 }
 
